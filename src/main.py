@@ -1,5 +1,14 @@
-def login(username, password):
-    if username == "admin" and password == "123":
-        return "Login sukses"
-    else:
-        return "Login gagal"
+def daftar_produk():
+    produk = [
+        "Laptop",
+        "Mouse",
+        "Keyboard",
+        "Headset"
+    ]
+
+    print("Daftar Produk:")
+    for item in produk:
+        print("-", item)
+
+
+daftar_produk()
